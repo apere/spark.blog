@@ -1,22 +1,18 @@
 # Sheri-Them: Terms & Conditions
 Copyright © 2015 Adam M. Pere
 
-<div id="license">
-	<div class="width">
-		<div class="container">
-			<h2><i class="icon-doc-text"></i> License Summary</h2>
-			<ul class="summary">
 
-							<li>License does not expire.</li>
-							<li>Can be distributed in 5 projects</li>
-							<li>Commercial use allowed</li>
-							<li>Can modify source-code but cannot distribute modifications (derivative works)</li>
-							<li>Attribution to software creator must be made  as specified: <p class="detail">Adam M. Pere</p></li>
-						</ul>
-			<a href="page/licensing-options"><i class="icon-book-open"></i> For more information on the license summary topics</a>
-		</div>
-		<div class="container terms">
-			<h2>Sheri-Theme - Terms and conditions</h2><ol><li>
+<h2><i class="icon-doc-text"></i> License Summary</h2>
+<ul class="summary">
+        <li>License does not expire.</li>
+        <li>Can be distributed in 5 projects</li>
+        <li>Commercial use allowed</li>
+        <li>Can modify source-code but cannot distribute modifications (derivative works)</li>
+        <li>Attribution to software creator must be made  as specified: <p class="detail">Adam M. Pere</p></li>
+      </ul>
+<a href="page/licensing-options"><i class="icon-book-open"></i> For more information on the license summary topics</a>
+
+  <h2>Sheri-Theme - Terms and conditions</h2><ol><li>
 <p><strong>Preamble:</strong> This Agreement, signed on Aug 17, 2015 (hereinafter: Effective Date) governs the relationship between Sheri Park, a Business Entity, (hereinafter: Licensee) and Adam M. Pere, a private person whose principal place of business is {location} (hereinafter: Licensor). This Agreement sets the terms, rights, restrictions and obligations on using Sheri-Theme (hereinafter: The Software) created and owned by Licensor, as detailed herein</p>
 </li><li>
 <p><strong>License Grant:</strong> Licensor hereby grants Licensee a Personal, Non-assignable &amp; non-transferable, Pepetual, Commercial, Royalty free, Including the rights to create but not distribute derivative works, Non-exclusive license, all with accordance with the terms set forth and other legal restrictions set forth in 3rd party software used while running Software.</p>
@@ -102,9 +98,7 @@ Copyright © 2015 Adam M. Pere
 </li>
 <li>
 <p><strong>Governing Law, Jurisdiction: </strong>Licensee hereby agrees not to initiate class-action lawsuits against   Licensor in relation to this license and to compensate Licensor for any   legal fees, cost or attorney fees should any claim brought by Licensee   against Licensor be denied, in part or in full.</p>
-</li></ol>		</div>
-	</div>
-	
+</li></ol>		
 
 -----
 
