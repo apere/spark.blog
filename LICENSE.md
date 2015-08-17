@@ -1,4 +1,4 @@
-# Sheri-Them: Terms & Conditions
+# Sheri-Theme: Terms & Conditions
 Copyright © 2015 Adam M. Pere
 
 
