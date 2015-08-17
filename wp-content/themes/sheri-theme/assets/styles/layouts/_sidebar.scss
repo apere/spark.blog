@@ -1,0 +1,123 @@
+.sidebar {
+  text-align: left;
+  width: $sidebar-width;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 20px 0 20px;
+  margin-bottom: 25px;
+  
+  @media only screen and (min-width: $max-width) {
+    right: calc(100% - #{$max-width});
+  }
+  
+  @media only screen and (max-width:900px) and (min-width:600px) {
+    width: $sidebar-small-width;
+  }
+  
+  // small tablet and mobile phone
+  @media only screen and (max-width:600px) {
+    width: calc(100% - 20px);
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    height: $mobile-sidebar-height;
+    overflow: hidden;
+    vertical-align: top;
+    padding: 10px 0;
+    margin-bottom: 0px;
+    
+    .logo {
+      display: inline-block; 
+      vertical-align: top;
+      margin-right: 10px;
+      width: 40px !important;
+      margin-top: calc( #{$mobile-sidebar-height}/2 - 30px);
+      margin-left: 5px;
+    }
+    
+    .nav-section {
+      height: $mobile-sidebar-height - 20px;
+    }
+    
+    .nav-links {
+      vertical-align: top;
+      display: inline-block;  
+      margin-top: calc( #{$mobile-sidebar-height}/2 - 23px);
+      
+      a {
+        display: inline-block; 
+        margin-right: 10px;
+        &:last-child {
+          margin-right: 0px; 
+        }
+      }
+      ul {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        height: calc( #{$mobile-sidebar-height} - 20px - 1em);
+        width: auto;
+      } 
+    }
+    
+    .nav-section {
+      display: none; 
+    }
+    
+  }
+  
+  a {
+    color: $text-secondary-color;
+    padding: 5px;
+    display: block;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 0px;
+    width: auto;
+    &:hover {
+        color: $text-color;	
+    }
+    @media only screen and (max-width:600px) {
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+  }
+  .logo {
+    padding-left: 0px;
+    width: 50px;
+    
+    img {
+      width: 100%;
+      margin-left: 0px;
+      opacity: 1;	
+      transition: all 250ms ease-in-out;
+      &:hover {
+        opacity: .7;
+      }	
+    }
+  }
+  
+  .nav-title {
+    margin-top: 1em;
+    margin-bottom: 0em;
+    font-weight: 700;
+    @media only screen and (max-width:600px) {
+      margin-top: 0px;
+    }
+  }
+  
+  .nav-projects {
+    list-style: none;
+    padding-left: 0px;
+    @media only screen and (max-width:600px) {
+      margin-bottom: 0px;
+    }
+    li {
+      padding-left:0px;
+      a {
+        font-size: .8em; 
+      }
+    } 
+  }
+}

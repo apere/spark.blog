@@ -1,0 +1,110 @@
+@import "common/_variables";
+
+article {
+  clear: both;
+  max-width: 870px;
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0px;
+  }
+  h1, .tags li{
+    font-family: 'Mate', 'serif'; 
+  }
+  
+  .tags {
+    line-height: .75em;
+    padding-left: 0px;
+    margin: 0px;
+    margin-top: 2px;
+    
+    li {
+      display: inline-block; 
+      font-size: .8em;
+      
+      &.list-title {
+          margin-right: .25em;
+        }
+      
+      &.post-tag {
+        margin-right: .5em;
+      }
+      
+      
+      &.post-tag, &.post-date{
+        color: rgba(75, 75, 75, .7); 
+      }
+    }
+    &.project-info {
+      line-height: 1.2em;
+      margin-top: 2px;
+      li {
+        font-size: 1em;
+       
+        &.post-date, &.post-tag {
+          font-size: .8em; 
+        }
+        
+        &.post-date {
+          margin-left: 5px; 
+        }
+      } 
+    }
+  }
+  
+  
+  .post-content {
+    margin: 20px 0px;
+    img.full-image, .feature-image {
+      width: 100%; 
+    }
+    
+    img.float-image {
+      width: 50%;
+      float: left;
+      margin: 1em 1em 4em 0px;
+      max-width: 380px;
+    }
+    
+    div.inline-image {    
+      img {
+        height: auto; 
+        float: left;
+        width: 50%; 
+        margin: 0em 1em 1em 0px;
+        max-width: 380px;
+      }
+    }
+    
+    .alignleft, .alignright {
+      height: auto; 
+      width: 50%; 
+      margin: .5em 1em 1em 1px;
+      max-width: 380px;
+    }
+    .alignleft {
+      margin: .5em 1em 1em 0px; 
+    }
+    .alignright {
+      margin: .5em 0em 1em 1em; 
+    }
+    
+    .size-full {
+      width: 100%;
+      height: auto;
+    }
+      
+    
+    p {
+      margin-top: 1em;
+      margin-botom: 1em;
+      
+      a {
+        text-decoration: underline;
+      } 
+    }
+    
+  }
+  
+}
